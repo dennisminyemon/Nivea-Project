@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NIVEA</title>
+    <!-- favicon -->
+    <link rel="icon" href="./images/Nivea-logo.png" />
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- gillightbox css link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.css"
+        integrity="sha512-iQ3H4A+iyBTP8M4ypX5PrTt2S+G1zmRjf0k0uOASKlFHysV8TL9ZoQyVwPss0D12IBTMoDEHA8+bg8a1viS9Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- main css link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- bootstrap css CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body style="background-color: #eef4ff;">
+    <!-- nav bar start -->
+    <nav style="background-color: #dbe6ff;" class="navbar navbar-expand-lg bg-body-tertiary position-sticky top-0 z-1">
+        <div class="container-fluid">
+            <img class="logo" src="./images/Nivea-logo.png" alt="Nivea-logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                    <li class="nav-item me-1">
+                        <a id="line" class="nav-link me-xl-2 me-lg-1" href="#new">new & trending</a>
+                    </li>
+                    <li class="nav-item me-1">
+                        <a id="line" class="nav-link me-xl-2 me-lg-1" href="#face">face</a>
+                    </li>
+                    <li class="nav-item me-1">
+                        <a id="line" class="nav-link me-xl-2 me-lg-1" href="#body">body</a>
+                    </li>
+                    <li class="nav-item me-1">
+                        <a id="line" class="nav-link me-xl-2 me-lg-1" href="#men">men</a>
+                    </li>
+                    <li class="nav-item me-1">
+                        <a id="line" class="nav-link me-xl-2 me-lg-1" href="#about">about</a>
+                    </li>
+                    <li class="nav-item me-1">
+                        <a id="line" class="nav-link me-xl-2 me-lg-1" href="#contact">contact</a>
+                    </li>
+                    <li class="nav-item dropdown me-1">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            User
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="#"><i
+                                        class="fa-regular fa-address-card me-1"></i>Register</a></li>
+                            <li><a class="dropdown-item" href="#"><i
+                                        class="fa-solid fa-arrow-right-to-bracket me-1"></i>Login</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#"><i
+                                        class="fa-solid fa-arrow-right-from-bracket me-1"></i>Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex text-center" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="submit"><i id="lens" class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- nav bar end -->
+    <!-- home start -->
+    <header class="header d-flex align-items-center" id="home">
+        <div class="container-fluid">
+            <div class="row align-items-center p-5">
+                <div class="col-12 order-2 col-lg-6 order-lg-1">
+                    <h2 class="head2">discover more about <br> soft products</h2>
+                    <h5 class="head5">for face, body and hands</h5>
+                    <div class="d-flex justify-content-center align-items-center mt-3">
+                        <a class="button rounded-pill" href="https://www.nivea.co.uk/products/body/care/cream"
+                            target="_blank"><b>find out more</b></a>
+                        <a id="playbut" class="glightbox ms-3" href="https://youtu.be/yUqMb9IRAWM?si=69fDpU7kWMDLk8Ee">
+                            <b><i class="fa-solid fa-play me-1"></i>watch</b></a>
+                    </div>
+                </div>
+                <!-- carousel -->
+                <div class="mb-3 col-12 order-1 col-lg-6 order-lg-2">
+                    <img class="img-fluid text-center" src="./images/NIVEA-1.png" alt="nivea group">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- home end -->
+    <!-- main menu start -->
+    <!-- menu start -->
+    <section id="face">
+        <div class="container p-3">
+            <div class="row">
+                <!-- product title -->
+                <div class="col-12 mb-3">
+                    <h2 class="head2 mb-4">discover our nivea categories!</h2>
+                    <h5 class="head2">nivea face products</h5>
+                </div>
+                <!-- products -->
+                <div class="col-12">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img class="img-fluid" src="./images/p1.png" class="card-img-top" alt="p1">
+                                <div class="card-body">
+                                    <h5 style="color: #0032a0; text-transform: uppercase;" class="card-title">nivea
+                                        creme</h5>
+                                    <p class="card-text">
+                                        the original moisturiser for the whole family. This iconic product
+                                        provides the skin with all the protective care it needs to stay soft & supple.
+                                    </p>
+                                    <p style="display: inline-block;" class="card-text"><small
+                                            class="text-body-secondary me-3">10000 Ks</small></p>
+                                    <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>order</b></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="img-fluid" src="./images/p4.png" class="card-img-top" alt="p2">
+                                <div class="card-body">
+                                    <h5 style="color: #0032a0; text-transform: uppercase;" class="card-title">purifying
+                                        wash</h5>
+                                    <p class="card-text">the original moisturiser for the whole family. This iconic
+                                        product
+                                        provides the skin with all the protective care it needs to stay soft & supple.
+                                    </p>
+                                    <p style="display: inline-block;" class="card-text"><small
+                                            class="text-body-secondary me-3">15000 Ks</small></p>
+                                    <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>order</b></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="img-fluid" src="./images/p3.png" class="card-img-top" alt="P3">
+                                <div class="card-body">
+                                    <h5 style="color: #0032a0; text-transform: uppercase;" class="card-title">giil &
+                                        bakim</h5>
+                                    <p class="card-text">the original moisturiser for the whole family. This iconic
+                                        product
+                                        provides the skin with all the protective care it needs to stay soft & supple.
+                                    </p>
+                                    <p style="display: inline-block;" class="card-text"><small
+                                            class="text-body-secondary me-3">7000 Ks</small></p>
+                                    <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>order</b></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- second row -->
+    <section id="new">
+        <div class="container">
+            <div class="row mt-5">
+                <!-- product title -->
+                <div class="col-12 mb-3">
+                    <h5 class="head2">what's new & trending?</h5>
+                </div>
+                <!-- products -->
+                <div class="col-12">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="card mb-3 me-5" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/p2.png" class="img-fluid rounded-start"
+                                        alt="p4">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 style="color: #0032a0; text-transform: uppercase;" class="card-title">
+                                            refreshing gel</h5>
+                                        <p class="card-text">the original moisturiser for the whole family. This iconic
+                                            product
+                                            provides the skin with all the protective care it needs to stay soft &
+                                            supple.
+                                        </p>
+                                        <p style="display: inline-block;" class="card-text"><small
+                                                class="text-body-secondary">11000 Ks</small></p>
+                                        <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>order</b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 ms-2" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/p5.png" class="img-fluid rounded-start"
+                                        alt="p5">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 style="color: #0032a0; text-transform: uppercase;" class="card-title">deep
+                                            roll-on</h5>
+                                        <p class="card-text">the original moisturiser for the whole family. This iconic
+                                            product
+                                            provides the skin with all the protective care it needs to stay soft &
+                                            supple.
+                                        </p>
+                                        <p style="display: inline-block;" class="card-text"><small
+                                                class="text-body-secondary">6900 Ks</small></p>
+                                        <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>order</b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 me-5" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/p6.png" class="img-fluid rounded-start"
+                                        alt="p6">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 style="color: #0032a0; text-transform: uppercase;" class="card-title">body
+                                            milk</h5>
+                                        <p class="card-text">the original moisturiser for the whole family. This iconic
+                                            product
+                                            provides the skin with all the protective care it needs to stay soft &
+                                            supple.
+                                        </p>
+                                        <p style="display: inline-block;" class="card-text"><small
+                                                class="text-body-secondary">16500 Ks</small></p>
+                                        <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>order</b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 ms-2" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/p7.png" class="img-fluid rounded-start"
+                                        alt="p7">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 style="color: #0032a0; text-transform: uppercase;" class="card-title">
+                                            whitening cream</h5>
+                                        <p class="card-text">the original moisturiser for the whole family. This iconic
+                                            product
+                                            provides the skin with all the protective care it needs to stay soft &
+                                            supple.
+                                        </p>
+                                        <p style="display: inline-block;" class="card-text"><small
+                                                class="text-body-secondary">19000 Ks</small></p>
+                                        <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>order</b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- third section body -->
+    <section id="body">
+        <div class="container">
+            <div class="row mt-5">
+                <!-- body title -->
+                <div class="col-12 mb-3">
+                    <h5 class="head2">nivea body products</h5>
+                </div>
+                <!-- body cards -->
+                <div class="col-12">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="card mb-3 me-5" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/b1.jpg" class="img-fluid rounded-start"
+                                        alt="b1">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 style="color: #0032a0; text-transform: uppercase;" class="card-title">shea
+                                            nourish</h5>
+                                        <p class="card-text">the original moisturiser for the whole family. This iconic
+                                            product
+                                            provides the skin with all the protective care it needs to stay soft &
+                                            supple.
+                                        </p>
+                                        <p style="display: inline-block;" class="card-text"><small
+                                                class="text-body-secondary">11000 Ks</small></p>
+                                        <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>order</b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 ms-2" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img class="img-fluid mt-3" src="./images/b2.jpg" class="img-fluid rounded-start"
+                                        alt="p5">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 style="color: #0032a0; text-transform: uppercase;" class="card-title">extra
+                                            whitening</h5>
+                                        <p class="card-text">the original moisturiser for the whole family. This iconic
+                                            product
+                                            provides the skin with all the protective care it needs to stay soft &
+                                            supple.
+                                        </p>
+                                        <p style="display: inline-block;" class="card-text"><small
+                                                class="text-body-secondary">12000 Ks</small></p>
+                                        <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>order</b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 me-5" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/p6.png" class="img-fluid rounded-start"
+                                        alt="p6">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 style="color: #0032a0; text-transform: uppercase;" class="card-title">body
+                                            milk</h5>
+                                        <p class="card-text">the original moisturiser for the whole family. This iconic
+                                            product
+                                            provides the skin with all the protective care it needs to stay soft &
+                                            supple.
+                                        </p>
+                                        <p style="display: inline-block;" class="card-text"><small
+                                                class="text-body-secondary">16500 Ks</small></p>
+                                        <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>order</b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 ms-2" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/p7.png" class="img-fluid rounded-start"
+                                        alt="p7">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 style="color: #0032a0; text-transform: uppercase;" class="card-title">
+                                            instant white</h5>
+                                        <p class="card-text">the original moisturiser for the whole family. This iconic
+                                            product
+                                            provides the skin with all the protective care it needs to stay soft &
+                                            supple.
+                                        </p>
+                                        <p style="display: inline-block;" class="card-text"><small
+                                                class="text-body-secondary">19000 Ks</small></p>
+                                        <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>order</b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fourth section men -->
+    <section id="men">
+        <div class="container">
+            <div class="row mt-5">
+                <!-- men title -->
+                <div class="col-12 mb-3">
+                    <h5 class="head2">nivea men</h5>
+                </div>
+                <!-- men cards -->
+                <div class="col-12">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="card mb-3 me-5" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/p5.png" class="img-fluid rounded-start"
+                                        alt="b1">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 style="color: #0032a0; text-transform: uppercase;" class="card-title">deep
+                                            roll-on</h5>
+                                        <p class="card-text">the original moisturiser for the whole family. This iconic
+                                            product
+                                            provides the skin with all the protective care it needs to stay soft &
+                                            supple.
+                                        </p>
+                                        <p style="display: inline-block;" class="card-text"><small
+                                                class="text-body-secondary">6900 Ks</small></p>
+                                        <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>order</b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 ms-2" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img class="img-fluid mt-3" src="./images/p1.png" class="img-fluid rounded-start"
+                                        alt="p5">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 style="color: #0032a0; text-transform: uppercase;" class="card-title">nivea
+                                            creme</h5>
+                                        <p class="card-text">the original moisturiser for the whole family. This iconic
+                                            product
+                                            provides the skin with all the protective care it needs to stay soft &
+                                            supple.
+                                        </p>
+                                        <p style="display: inline-block;" class="card-text"><small
+                                                class="text-body-secondary">10000 Ks</small></p>
+                                        <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>order</b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 me-5" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/p6.png" class="img-fluid rounded-start"
+                                        alt="p6">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 style="color: #0032a0; text-transform: uppercase;" class="card-title">body
+                                            milk</h5>
+                                        <p class="card-text">the original moisturiser for the whole family. This iconic
+                                            product
+                                            provides the skin with all the protective care it needs to stay soft &
+                                            supple.
+                                        </p>
+                                        <p style="display: inline-block;" class="card-text"><small
+                                                class="text-body-secondary">16500 Ks</small></p>
+                                        <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>order</b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 ms-2" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/p4.png" class="img-fluid rounded-start"
+                                        alt="p7">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 style="color: #0032a0; text-transform: uppercase;" class="card-title">
+                                            purifying wash</h5>
+                                        <p class="card-text">the original moisturiser for the whole family. This iconic
+                                            product
+                                            provides the skin with all the protective care it needs to stay soft &
+                                            supple.
+                                        </p>
+                                        <p style="display: inline-block;" class="card-text"><small
+                                                class="text-body-secondary">15000 Ks</small></p>
+                                        <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>order</b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- menu end -->
+    <!-- main menu end -->
+    <!-- about start -->
+    <section id="about" class="mt-5">
+        <div class="container">
+            <!-- about -->
+            <div class="row mb-5">
+                <!-- about pic -->
+                <div class="col-12">
+                    <img class="img img-fluid img-thumbnail w-100" src="./images/about-us-nivea.webp" alt="about pic">
+                </div>
+                <!-- about title and txt -->
+                <div class="col-12 mb-3 mt-4">
+                    <h2 class="head2 mb-2"><b>about us</b></h2>
+                </div>
+                <div class="col-12">
+                    <p class="aboutp text-center">As one of the leading companies in the field of skin care – with more
+                        than 130 years of
+                        experience – our <br> products always cater for the needs of our consumers, who place a great
+                        deal of faith in us. Learn more about <br> us here.</p>
+                </div>
+            </div>
+            <!-- history -->
+            <div class="row mt-5 mb-5">
+                <!-- history pic -->
+                <div class="col-12 order-1 col-lg-6 order-lg-1">
+                    <img class="img img-fluid" src="./images/nivea-ball-kind.webp" alt="history pic">
+                </div>
+                <!-- history txt -->
+                <div class="mb-3 col-12 order-2 col-lg-6 order-lg-2 mt-4">
+                    <div>
+                        <h4 class="historyh2 mb-4"><b>history of nivea</b></h4>
+                        <p class="historyp mb-5">You will find NIVEA in almost every household. Here you can learn more
+                            interesting facts
+                            about the history of the brand and where the name NIVEA comes from.</p>
+                        <b><a class="historylk text-uppercase" href="https://www.nivea.co.uk/about-us/nivea-history">to
+                                nivea creme history</a></b>
+                    </div>
+                </div>
+            </div>
+            <!-- career -->
+            <div class="row mt-5 mb-5">
+                <!--careery pic -->
+                <div class="col-12 order-1 col-lg-6 order-lg-1">
+                    <img class="img img-fluid" src="./images/karriere.webp" alt="career pic">
+                </div>
+                <!-- career txt -->
+                <div class="mb-3 col-12 order-2 col-lg-6 order-lg-2 mt-4">
+                    <div>
+                        <h4 class="historyh2 mb-4"><b>carees at beiersdorf</b></h4>
+                        <p class="historyp mb-5">Make our goals your future: If you have talent, passion and
+                            entrepreneurship,
+                            you will find your calling with us!</p>
+                        <b><a class="historylk text-uppercase" href="https://www.nivea.co.uk/about-us/career">
+                                more about carees</a></b>
+                    </div>
+                </div>
+            </div>
+            <!-- nature -->
+            <div class="row mt-5">
+                <!-- nature pic -->
+                <div class="col-12 order-1 col-lg-6 order-lg-1">
+                    <img class="img img-fluid" src="./images/nachhaltigkeit-t.webp" alt="nature pic">
+                </div>
+                <!-- nature txt -->
+                <div class="mb-3 col-12 order-2 col-lg-6 order-lg-2 mt-4">
+                    <div>
+                        <h4 class="historyh2 mb-4"><b>sustainability at nivea</b></h4>
+                        <p class="historyp mb-5">Reliability and quality – these are our most important values.
+                            Sustainability therefore plays an important role for NIVEA.</p>
+                        <b><a class="historylk text-uppercase"
+                                href="https://www.nivea.co.uk/about-us/one-skin-one-planet-one-care">
+                                more about sustainability</a></b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about end -->
+    <!-- contact start -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <!-- contact title -->
+                <div class="col-12 mb-3 mt-5">
+                    <h2 class="head2 mb-2"><b>contact us!</b></h2>
+                </div>
+                <!-- contact txt -->
+                <div class="row contactDc justify-content-center ms-2 me-2">
+                    <div class="mt-3 col-12 col-md-4">
+                        <h4 class="historyh2 mb-3"><b>address</b></h4>
+                        <p class="historyp">Beiersdorf UK Ltd. <br>
+                            Trinity Central, Trinity Park <br>
+                            Bickenhill Lane, <br>
+                            Birmingham, United Kingdom <br>
+                            B37 7ES</p>
+                    </div>
+                    <!-- contact txt 2 -->
+                    <div class="mt-3 col-12 col-md-4">
+                        <h4 class="historyh2 mb-3"><b>phone</b></h4>
+                        <p class="historyp">T: Tel: +44 (0)121 329 8800 <br>
+                            F: +44 (0)121 329 8801</p>
+                    </div>
+                    <!-- contact txt 3 -->
+                    <div class="mt-3 col-12 col-md-4">
+                        <h4 class="historyh2 mb-3"><b>register</b></h4>
+                        <p class="historyp">Commercial Register / Reg. No.: 00468710 <br>
+                            VAT Identification No.: GB222281891</p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <!-- contact img -->
+                    <div class="col-lg-4 col-12 mb-5 mt-lg-5">
+                        <img class="img img-fluid" src="./images/undraw_profile_data_re_v81r.svg" alt="undraw">
+                    </div>
+                    <!-- contact form -->
+                    <form class="col-lg-8 col-12">
+                        <div class="row mb-3 g-3">
+                            <p class="historyh2"><b>looking for great skincare advice?</b></p>
+                            <div class="col">
+                                <label for="exampleFormControlInput1" class="form-label">Your name</label>
+                                <input style="background-color: #dbe6ff;" type="text" class="form-control"
+                                    placeholder="First name" aria-label="First name">
+                            </div>
+                            <div class="col">
+                                <label for="exampleFormControlInput1" class="form-label">Your last name</label>
+                                <input style="background-color: #dbe6ff;" type="text" class="form-control"
+                                    placeholder="Last name" aria-label="Last name">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input style="background-color: #dbe6ff;" type="email" class="form-control"
+                                id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Comment here...</label>
+                            <textarea style="background-color: #dbe6ff;" class="form-control"
+                                id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="float-end">
+                            <a id="crdbtn" class="button rounded-pill ms-5" href=""><b>submit</b></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact end -->
+    <!-- footer start -->
+    <footer class="foot">
+        <div class="container-fluid footerColor mt-5">
+            <div class="row text-center ">
+                <div class="col-12 mb-4 mt-5">
+                    <h2 class="historyh2 text-white mb-3 text-center text-uppercase">how can we help you?
+                    </h2>
+                </div>
+                <div class="col-6">
+                    <h4 style="text-align: justify;" class="historyh2 text-white mb-2 mb-lg-3 text-lg-center">NEED HELP?
+                    </h4>
+                    <div style="text-align: left;" class="text-lg-center">
+                        <a class="text-white" href="">Privacy Policy</a><br>
+                        <a class="text-white" href="">Cookie Settings</a><br>
+                        <a class="text-white" href="">FAQ Conditions Of Use</a><br>
+                        <a class="text-white" href="">Modern Slavery</a><br>
+                        <a class="text-white" href="">Company Information</a><br>
+                        <a class="text-white" href="">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h4 style="text-align: justify;" class="historyh2 text-white mb-2 mb-lg-3 text-lg-center">TIPS &
+                        ADVICE</h4>
+                    <div style="text-align: left;" class="text-lg-center">
+                        <a class="text-white" href="">How To Get Rid Of Stretch Marks</a><br>
+                        <a class="text-white" href="">How to get rid of wrinkles</a><br>
+                        <a class="text-white" href="">What is melasma?</a><br>
+                        <a class="text-white" href="">Does The Sun Help Acne & Pimples?</a><br>
+                        <a class="text-white" href="">What are Marionette Lines and what causes them?</a><br>
+                        <a class="text-white" href="">Mens Dark Circles & Bags Under The Eyes</a>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <h4 class="historyh2 text-white text-uppercase mb-3 mt-5">get connected!</h4>
+                    <div>
+                        <a class="footicon text-white me-5" target="_blank"
+                            href="https://www.facebook.com/niveawomenmm/?brand_redir=351330671179">
+                            <i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="footicon text-white me-5" target="_blank"
+                            href="https://www.instagram.com/thisisnivea/">
+                            <i class="fa-brands fa-instagram"></i></a>
+                        <a class="footicon text-white" target="_blank" href="https://twitter.com/NIVEAUSA">
+                            <i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 order-1 col-lg-6">
+                        <h2 class="text-white text-lg-start text-center ms-lg-4">Beiersdorf
+                        </h2>
+                    </div>
+                    <div class="col-12 order-2 col-lg-6">
+                        <p style="opacity: 0.7;" class="text-white mt-lg-3 text-lg-end text-center me-lg-1 ">Copyright ©
+                            Beiersdorf 2024
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- scroll up button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angles-up"></i></button>
+    <div id="preloader"></div>
+    <!-- scroll up button end-->
+    
+</body>
+<!-- gillightbox cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"
+    integrity="sha512-S/H9RQ6govCzeA7F9D0m8NGfsGf0/HjJEiLEfWGaMCjFzavo+DkRbYtZLSO+X6cZsIKQ6JvV/7Y9YMaYnSGnAA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- main js link -->
+<script src="main.js"></script>
+<!-- bootstrap js CDN link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    
+</html>
+
